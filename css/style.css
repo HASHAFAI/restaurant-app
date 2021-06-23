@@ -91,7 +91,7 @@ section.option .options .media p {font-size: 15px;line-height: 20px; color: #757
 section.option  .images img{max-width: 400px;}
 /* Start slider */
 section.slider {background-color: #ffffff;padding: 80px 0;}
-section.slider .carousel {background-color: antiquewhite;padding: 20px 0;}
+section.slider .carousel {background-color: bisque;padding: 20px 0;}
 section.slider #carouselExampleIndicators img{height: 300px;}
 section.slider .title {margin-bottom: 60px;}
 section.slider .title h3 {font-size: 36px;}
@@ -245,6 +245,7 @@ footer .footer .widget .content form .error {color: red;}
     section.option .options {margin-bottom: 300px;}
 }
 @media (max-width: 575px) {
+    section.banner .overlay .banner-text h1 {font-size: 24px;line-height: 2;}
     section.feature {padding: 0;}
     section.feature .mobel-feature{margin: -90px 0 0;}
     section.banner .overlay .images {bottom: -500px;right: 5%;left: 5%;}
