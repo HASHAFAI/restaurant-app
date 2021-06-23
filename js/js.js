@@ -1,6 +1,7 @@
 $(document).ready(function() {
-    var wow = new WOW({mobile:false});
-    wow.init();
+    new WOW().init({
+        mobile: false
+       });
     // JQUIRY-Validat
     $(function () { $("#emailForm").validate();});
 });
